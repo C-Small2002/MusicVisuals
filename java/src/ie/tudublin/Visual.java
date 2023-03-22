@@ -6,7 +6,7 @@ import ddf.minim.analysis.FFT;
 
 public class Visual extends PApplet
 {
-	private int frameSize = 512;
+	private int frameSize = 1024;
 	private int sampleRate = 44100;
 
 	private float[] bands;
@@ -22,6 +22,8 @@ public class Visual extends PApplet
 
 	private float amplitude  = 0;
 	private float smothedAmplitude = 0;
+
+	Spiral s = new Spiral();
 
 	public void keyPressed(){
 		if(key >= '0' && key <= '9'){
@@ -103,18 +105,22 @@ public class Visual extends PApplet
 	}
 
 	public void setup(){
+		colorMode(RGB);
 		startMinim();
 		loadAudio("Bee Gees - Stayin' Alive (Official Music Video).wav");
 		startListening();
+		calculateAverageAmplitude();
 	}
 
 	public void draw(){
 
 		background(0);
-
+		
 		switch (mode) {
 			case 0: 
 				
+				s.render();	
+					  
 		}
 		
 	}
