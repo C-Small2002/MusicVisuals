@@ -12,7 +12,7 @@ public class Visual extends PApplet
 	private float[] bands;
 	private float[] smoothedBands;
 
-	private int mode;
+
 
 	private Minim minim;
 	private AudioInput ai;
@@ -22,14 +22,6 @@ public class Visual extends PApplet
 
 	private float amplitude  = 0;
 	private float smothedAmplitude = 0;
-
-	Spiral s = new Spiral();
-
-	public void keyPressed(){
-		if(key >= '0' && key <= '9'){
-			mode = key - '0';
-		}
-	}
 	
 	public void startMinim() 
 	{
@@ -100,29 +92,12 @@ public class Visual extends PApplet
 		ab = ap.mix;
 	}
 
-	public void settings(){
-		size(1024, 1000, P3D);
-	}
-
 	public void setup(){
 		colorMode(RGB);
 		startMinim();
 		loadAudio("Bee Gees - Stayin' Alive (Official Music Video).wav");
 		startListening();
 		calculateAverageAmplitude();
-	}
-
-	public void draw(){
-
-		background(0);
-		
-		switch (mode) {
-			case 0: 
-				
-				s.render();	
-					  
-		}
-		
 	}
 
 	public int getFrameSize() {
