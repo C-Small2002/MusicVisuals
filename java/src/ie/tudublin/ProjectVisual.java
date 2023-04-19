@@ -9,6 +9,7 @@ public class ProjectVisual extends Visual {
     
     PShape eye;
     PShape grave;
+    float fCounter; //frame counter
 
     public void settings(){
 		//size(1024, 1000, P3D);
@@ -53,7 +54,7 @@ public class ProjectVisual extends Visual {
         // Call this is you want to get the average amplitude
         calculateAverageAmplitude();        
        
-        spiral2.render();
+        spiral.render();
        // graves.render();
     }   
     
