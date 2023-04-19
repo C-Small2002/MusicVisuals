@@ -1,5 +1,6 @@
 package ie.tudublin;
 
+import ddf.minim.analysis.BeatDetect;
 import processing.core.PShape;
 
 public class ProjectVisual extends Visual {
@@ -20,7 +21,7 @@ public class ProjectVisual extends Visual {
 		loadAudio("Bee Gees - Stayin' Alive (Official Music Video).wav");
         eye = loadShape("eyeball.obj");
         grave = loadShape("gravestone.obj");
-        noiseSeed(0l);
+        noiseSeed(100);
 		startListening();
 	}
     
@@ -52,7 +53,7 @@ public class ProjectVisual extends Visual {
         // Call this is you want to get the average amplitude
         calculateAverageAmplitude();        
        
-        spiral.render();
+        spiral2.render();
        // graves.render();
     }   
     
