@@ -1,5 +1,7 @@
 package ie.tudublin;
 
+import processing.core.PApplet;
+
 public abstract class Poly {
     ProjectVisual v;
 
