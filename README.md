@@ -43,6 +43,13 @@ This visual is done by using a timer and lerp function to set the size change of
 The position of the boxes are set on angles so that they are not piled on top of one another. 
 The shape is rotated and the angle is incremented so that there is constant movement.
 
+## FIONN:
+### Cubesquared2.java
+this visual uses three nested for loops setting the value of x,y,z iterating between negative off max which designates how many pixels off centre of the chosen axis it would be to its positive (negative being left and positive being right).the xo ,yo and zo variables are incremented by 50 each time to space out the cubes by 50 pixels vertically,horizontally and by depth.i rotated the entire box and also each individual box using the framecount variable as using smoothamplitude() caused it to look choppy and unnapealling and framecount gave it a smoother rotation. i also added a scale factor variable that for each iteration of the loop chooses a random float between 0.5 and 2.0 which in turn scales the individual boxes randomly. i did also have another iteration of this where fill and stroke colours changes aswell as incrementing the translate of each axis based on framecount and smoothamplitude ,but in the end decided this was better.
+
+### SinWaves.java
+this visual creates a 20 by 20 grid of what originally was supposed to be spheres but due to system constraints i was unable to use,so i settled for boxes.my main idea with this visual was to see what i could do using more complex maths mainly using sin, i was able to implement a box size variable that progressively edits the box size of each box within a certain distance along a sinusoidal wave which gives the affect  of the boxes dissapearing and reapearing in a wave, also synced this wave by incrementing the angle variable to get smooth amplitude.i also synced the overall grid size based on smoothamplitude() and current x,y,z values
+
 # What I am most proud of in the assignment
 
 ## CATHAL:
@@ -51,6 +58,9 @@ The part of this assignment I'm most proud of would have to be setting up the fi
 ## LILJA:
 I am most proud of the cubic visual. I spent awhile changing around the variables and trying different things to get to the shape I was happy with. I enjoyed playing around with 3D shapes and am quite proud how it turned out.
 
+## Fionn:
+I am most proud of the SinWaves visual it was interesting seeing the different affects the use of sin and cos can have on an otherwise basic visual,which a lot of the time was trial and error.I also feel my level of understanding of java has significantly improved throughout my many ,many attempts at different visuals.
+
 # What I Learned:
 ## CATHAL:
 I learned quite a lot in this assignment. As I said earlier, I learned a lot about how polymorphism works and how to implement it for a project like this, but I also learned how to use Git and GitHub to manage a project like this. I'd never used Git or GitHub before this module so I had no experience with it going in. However, I now feel quite comfortable using it and now know how to solve merge conflicts and deal with pull requests. I also learned a great deal more about processing and the ways it can be used to create art. Finally, I learned that theres a limit on how many times you can hear Stayin Alive before it gets a bit annoying.
@@ -58,6 +68,9 @@ I learned quite a lot in this assignment. As I said earlier, I learned a lot abo
 ## LILJA:
 During the project I was able to see the effects of maths visualised on screen. It was interesting to see how different maths functions behaved visually and I learned a lot from it.
 I also learned a lot about github and how to work on projects together through upstream and pull requests. It's definitely an invaluable skill for industry.
+
+## Fionn:
+I struggled quite a bit with understanding how to change values and to correspond with my ideas, hence why my ideas for visuals changed a lot throughout working on this project.I think my understanding of git has also improved a lot which will hopefully help me in the future.
 
 # Markdown Tutorial
 
