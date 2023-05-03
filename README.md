@@ -70,8 +70,8 @@ I also learned a lot about github and how to work on projects together through u
 ## Fionn:
 I struggled quite a bit with understanding how to change values and to correspond with my ideas, hence why my ideas for visuals changed a lot throughout working on this project.I think my understanding of git has also improved a lot which will hopefully help me in the future.
 
-#Video Demo of The Visuals:
-[![Youtube] (https://www.youtube.com/watch?v=WRQP5SPq54c&ab_channel=FionnSeville)
+# Video Demo of The Visuals:
+![Youtube] (https://www.youtube.com/watch?v=WRQP5SPq54c&ab_channel=FionnSeville)
 
 # Markdown Tutorial
 
