@@ -57,6 +57,7 @@ I learned quite a lot in this assignment. As I said earlier, I learned a lot abo
 
 ## LILJA:
 During the project I was able to see the effects of maths visualised on screen. It was interesting to see how different maths functions behaved visually and I learned a lot from it.
+I also learned a lot about github and how to work on projects together through upstream and pull requests. It's definitely an invaluable skill for industry.
 
 # Markdown Tutorial
 
