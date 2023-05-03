@@ -49,7 +49,7 @@ The part of this assignment I'm most proud of would have to be setting up the fi
 ## LILJA:
 I am most proud of the cubic visual. I spent awhile changing around the variables and trying different things to get to the shape I was happy with. I enjoyed playing around with 3D shapes and am quite proud how it turned out.
 
-## Fionn:
+## FIONN:
 I am most proud of the SinWaves visual it was interesting seeing the different affects the use of sin and cos can have on an otherwise basic visual,which a lot of the time was trial and error.I also feel my level of understanding of java has significantly improved throughout my many ,many attempts at different visuals.
 
 # What I Learned:
@@ -60,7 +60,7 @@ I learned quite a lot in this assignment. As I said earlier, I learned a lot abo
 During the project I was able to see the effects of maths visualised on screen. It was interesting to see how different maths functions behaved visually and I learned a lot from it.
 I also learned a lot about github and how to work on projects together through upstream and pull requests. It's definitely an invaluable skill for industry.
 
-## Fionn:
+## FIONN:
 I struggled quite a bit with understanding how to change values and to correspond with my ideas, hence why my ideas for visuals changed a lot throughout working on this project.I think my understanding of git has also improved a lot which will hopefully help me in the future.
 
 # Video Demo of The Visuals:
