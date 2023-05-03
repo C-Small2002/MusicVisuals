@@ -73,6 +73,8 @@ public class ProjectVisual extends Visual {
             play = new SinWaves(this);
         }
 
+        
+
         if(key =='r' || key =='R'){ //allows for the song to be  started again from the beginning
 
             getAudioPlayer().cue(0);

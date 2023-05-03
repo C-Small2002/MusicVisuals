@@ -24,6 +24,7 @@ public class Cubesquared2 extends Poly{
        v.rotateY(v.frameCount*0.01f);
        v.rotateX(v.frameCount*0.01f);
        v.rotateZ(v.frameCount*0.01f);
+       v.strokeWeight(1);
        //v.rotateY(v.frameCount*v.getSmoothedAmplitude()/100);
        //v.rotateX(v.frameCount*v.getSmoothedAmplitude()/100);
        //v.rotateZ(v.frameCount*v.getSmoothedAmplitude()/100);
