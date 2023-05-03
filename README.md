@@ -12,9 +12,7 @@ Student Number: C21414822, C21383891, C21385033
 - Check out the WaveForm and AudioBandsVisual for examples of how to call the Processing functions from other classes that are not subclasses of PApplet
 
 # Description of the assignment
-
-## CATHAL:
-For my portion of the assignment, I was in charge of setting up the files with polymorphism as well as creating two visuals. The first of these visuals was Spiral.java. The circles that make up this spiral all change size based on the SmoothedAmplitude with the rotation of it being mapped to SmoothAmplitude too. The second visual I made was Bloom.java, which was done to represent a flower. The flower is made up of rectangles that scale and rotate in sync to the music. There is also a colour change occurning at the centre of the flower, which creates a pistil. This pistil is also synced to the music.
+This assignment uses the processing and minim librarys to create complex music visuals that sync to and match the feel of our choosen song, which is Stayin' Alive by the Bee Gees. The files are set up to use polymorphism with each class making up a seperate visual. These visuals are all called in the file ProjectVisual.java which is then called in main.
 
 # Instructions
 ## KeyPressed
@@ -71,6 +69,9 @@ I also learned a lot about github and how to work on projects together through u
 
 ## Fionn:
 I struggled quite a bit with understanding how to change values and to correspond with my ideas, hence why my ideas for visuals changed a lot throughout working on this project.I think my understanding of git has also improved a lot which will hopefully help me in the future.
+
+#Video Demo of The Visuals:
+[![Youtube] (https://www.youtube.com/watch?v=WRQP5SPq54c&ab_channel=FionnSeville)
 
 # Markdown Tutorial
 
